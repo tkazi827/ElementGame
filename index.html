@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Element Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e391ce7786.js" crossorigin="anonymous"></script>
+    <script src="app.js" defer></script>
+    <p id="shead"></p>
+</head>
+<body>
+    <h1>Fire,Water,Earth,Wind</h1>
+    <h2 id="demo">Choose an Element</h2>
+<!--  The Container  -->
+    <div class="container">
+<!--   The first section     -->
+        <div class="section">
+            <div class="info">
+                <h3>PLAYER :</h3><span id="playerScore">0</span>
+            </div>
+            <div class="show">
+                <i class="random"></i>
+
+            </div>
+        </div>
+<!--   The second section     -->
+        <div class="section">
+            <div class="info">
+                <h3>Computer :</h3><span id="computerScore">0</span>
+            </div>
+            <div class="show computer">
+                <i class="random"></i>
+            </div>
+        </div>
+    </div>
+    
+    <h2 style="color: rgb(233, 33, 19);" id="demo2">Pick one of these elements below</h2>
+<!--This selection div contains the buttons  -->
+    <div class="selection">
+        <button class="fas fa-fire" id="fire"></button>
+        <button class="fas fa-water" id="water"></button>
+        <button class="fab fa-rockrms" id="earth"></button>
+        <button class="fas fa-wind" id="wind"></button>
+    </div>
+</body>
+</html>
